@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181b24;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #29d987;
+}
+
+.hContent {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.logoName {
+    color: #29d987;
+}

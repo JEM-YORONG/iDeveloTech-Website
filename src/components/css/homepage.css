@@ -1,0 +1,43 @@
+.homePage{
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid white;
+    height: auto;
+}
+
+.gStart {
+    display: flex;
+    border: 1px solid white;
+    align-self: stretch;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gStart button {
+    padding: 0px 10px 0px 10px;
+    background-color: #29d987;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 0px 20px 0px;
+}
+
+.textDiv{
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.imgDiv {
+    border: 1px solid white;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px
+}
