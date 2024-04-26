@@ -6,6 +6,7 @@ function HomePage() {
           <div className="textDiv">
             <div className="text">
               <p>
+                <h3>Text</h3>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
                 nisi accusantium ipsum, dolorum eum laborum! Tempore cumque
                 saepe nesciunt molestias recusandae itaque porro quod commodi
@@ -14,6 +15,7 @@ function HomePage() {
             </div>
             <div className="text">
               <p>
+                <h3>Text</h3>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
                 nisi accusantium ipsum, dolorum eum laborum! Tempore cumque
                 saepe nesciunt molestias recusandae itaque porro quod commodi
@@ -40,7 +42,12 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="imgDiv"></div>
+          <div className="imgDiv">
+            <img
+              src="https://media.cnn.com/api/v1/images/stellar/prod/160107100400-monkey-selfie.jpg?q=w_2912,h_1638,x_0,y_0,c_fill"
+              alt="monkey"
+            />
+          </div>
         </div>
 
         <div className="gStart">

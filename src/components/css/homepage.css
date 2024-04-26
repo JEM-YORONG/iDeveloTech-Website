@@ -1,13 +1,17 @@
 .homePage{
     padding: 20px;
     margin: 30px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 76vh;
 }
 
 .gStart {
     display: flex;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     align-self: stretch;
     padding: 10px;
     align-items: center;
@@ -25,19 +29,31 @@
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px 0px 20px 0px;
 }
 
 .textDiv{
-    color: #ffffff;
-    padding: 10px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
 }
 
-.imgDiv {
-    border: 1px solid white;
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px
+.text {
+    /* border: 1px solid white; */
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.text p {
+    color: #ffffff;
+    font-size: 15pt;
+}
+
+.imgDiv img {
+    border-radius: 10px;
+    width: 45vw;
+    height: 65vh;
+    margin: 10px;
 }
